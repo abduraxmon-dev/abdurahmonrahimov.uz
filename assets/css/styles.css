@@ -25,7 +25,12 @@
   --text-color: hsl(var(--hue), 2%, 66%);
   --body-color: hsl(var(--hue), 100%, 1%);
   --container-color: hsl(var(--hue), 2%, 10%);
-  --conic-gradient: conic-gradient(from 150deg at 50% 45%, hsl(var(--hue), 80%, 20%) 0deg, hsl(var(--hue), 80%, 48%) 140deg, hsl(var(--hue), 80%, 20%) 360deg);
+  --conic-gradient: conic-gradient(
+    from 150deg at 50% 45%,
+    hsl(var(--hue), 80%, 20%) 0deg,
+    hsl(var(--hue), 80%, 48%) 140deg,
+    hsl(var(--hue), 80%, 20%) 360deg
+  );
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -124,8 +129,8 @@ img {
   position: fixed;
   top: 0;
   left: 0;
-  pointer-events: none; 
-  z-index: 9998; 
+  pointer-events: none;
+  z-index: 9998;
   transition: transform 0.1s ease-out;
   margin-left: -4px;
   margin-top: -4px;
@@ -360,7 +365,7 @@ img {
   transition: transform 0.4s;
 }
 
-.skills__items > #figma-icon{
+.skills__items > #figma-icon {
   width: 1rem;
 }
 
@@ -435,8 +440,8 @@ img {
   transition: transform 0.4s;
 }
 
-.projects__skills > #figma-icon{
-  width: .6rem;
+.projects__skills > #figma-icon {
+  width: 0.6rem;
 }
 
 .projects__skill:hover {
