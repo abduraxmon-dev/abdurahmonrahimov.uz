@@ -132,8 +132,8 @@ img {
   pointer-events: none;
   z-index: 9998;
   transition: transform 0.1s ease-out;
-  margin-left: -8px;
-  margin-top: -8px;
+  margin-left: -4px;
+  margin-top: -4px;
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
